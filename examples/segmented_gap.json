@@ -1,0 +1,281 @@
+{
+  "event": "storm-split",
+  "event_seconds": [
+    0,
+    70
+  ],
+  "liters_per_unit": 1,
+  "trigger_liters": 10,
+  "tolerance_s": 1,
+  "dry_seconds": 10,
+  "window_seconds": 10,
+  "runs": [
+    {
+      "id": "f1",
+      "seconds": [
+        0,
+        10
+      ],
+      "units": 10
+    },
+    {
+      "id": "f2",
+      "seconds": [
+        10,
+        20
+      ],
+      "units": 15
+    },
+    {
+      "id": "unseen",
+      "seconds": [
+        20,
+        30
+      ],
+      "units": null
+    },
+    {
+      "id": "f3",
+      "seconds": [
+        30,
+        40
+      ],
+      "units": 10
+    },
+    {
+      "id": "f4",
+      "seconds": [
+        40,
+        50
+      ],
+      "units": 20
+    },
+    {
+      "id": "f5",
+      "seconds": [
+        50,
+        60
+      ],
+      "units": 15
+    },
+    {
+      "id": "f6",
+      "seconds": [
+        60,
+        70
+      ],
+      "units": 10
+    }
+  ],
+  "bottles": [
+    {
+      "id": "b1",
+      "trigger": 1,
+      "sampled_s": 10,
+      "custody": [
+        {
+          "holder": "field",
+          "at_s": 10
+        },
+        {
+          "holder": "transport",
+          "at_s": 12
+        },
+        {
+          "holder": "lab",
+          "at_s": 14
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "trigger": 2,
+      "sampled_s": 17,
+      "custody": [
+        {
+          "holder": "field",
+          "at_s": 17
+        },
+        {
+          "holder": "transport",
+          "at_s": 19
+        },
+        {
+          "holder": "lab",
+          "at_s": 21
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "trigger": 3,
+      "sampled_s": 35,
+      "custody": [
+        {
+          "holder": "field",
+          "at_s": 35
+        },
+        {
+          "holder": "transport",
+          "at_s": 37
+        },
+        {
+          "holder": "lab",
+          "at_s": 39
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "trigger": 4,
+      "sampled_s": 43,
+      "custody": [
+        {
+          "holder": "field",
+          "at_s": 43
+        },
+        {
+          "holder": "transport",
+          "at_s": 45
+        },
+        {
+          "holder": "lab",
+          "at_s": 47
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "trigger": 5,
+      "sampled_s": 48,
+      "custody": [
+        {
+          "holder": "field",
+          "at_s": 48
+        },
+        {
+          "holder": "transport",
+          "at_s": 50
+        },
+        {
+          "holder": "lab",
+          "at_s": 52
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "trigger": 6,
+      "sampled_s": 53,
+      "custody": [
+        {
+          "holder": "field",
+          "at_s": 53
+        },
+        {
+          "holder": "transport",
+          "at_s": 55
+        },
+        {
+          "holder": "lab",
+          "at_s": 57
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "trigger": 7,
+      "sampled_s": 60,
+      "custody": [
+        {
+          "holder": "field",
+          "at_s": 60
+        },
+        {
+          "holder": "transport",
+          "at_s": 62
+        },
+        {
+          "holder": "lab",
+          "at_s": 64
+        }
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "m1",
+      "hold_s": 30
+    },
+    {
+      "id": "m2",
+      "hold_s": 30
+    }
+  ],
+  "assays": [
+    {
+      "id": "a1",
+      "bottle": "b1",
+      "method": "m1",
+      "at_s": 15,
+      "status": "measured",
+      "mg_l": 2
+    },
+    {
+      "id": "a2",
+      "bottle": "b2",
+      "method": "m1",
+      "at_s": 25,
+      "status": "below_limit",
+      "mg_l": 1
+    },
+    {
+      "id": "a3",
+      "bottle": "b3",
+      "method": "m1",
+      "at_s": 42,
+      "status": "measured",
+      "mg_l": 4
+    },
+    {
+      "id": "a4",
+      "bottle": "b4",
+      "method": "m1",
+      "at_s": 48,
+      "status": "measured",
+      "mg_l": 5
+    },
+    {
+      "id": "a5",
+      "bottle": "b5",
+      "method": "m1",
+      "at_s": 55,
+      "status": "measured",
+      "mg_l": 6
+    },
+    {
+      "id": "a6",
+      "bottle": "b6",
+      "method": "m1",
+      "at_s": 62,
+      "status": "measured",
+      "mg_l": 8
+    },
+    {
+      "id": "a7",
+      "bottle": "b7",
+      "method": "m2",
+      "at_s": 68,
+      "status": "measured",
+      "mg_l": 3
+    },
+    {
+      "id": "a8",
+      "bottle": "b3",
+      "method": "m2",
+      "at_s": 39,
+      "status": "measured",
+      "mg_l": 9
+    }
+  ]
+}

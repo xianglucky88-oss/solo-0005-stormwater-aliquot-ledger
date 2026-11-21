@@ -3,7 +3,7 @@ from fractions import Fraction
 from .common import integer, require, unique
 
 
-def reconcile(bottles, triggers, tolerance):
+def reconcile(bottles, triggers, tolerance, segmented=False):
     claims = {}
     known = {t['number']: t for t in triggers}
     extras = []
@@ -22,8 +22,12 @@ def reconcile(bottles, triggers, tolerance):
                  'received')
         fact = {'bottle': key, 'trigger': trigger_no, 'state': state, 'sampled_s': sampled_s,
                 'received_s': times[-1] if state == 'received' else None}
+        if segmented and trigger is not None:
+            fact['segments'] = [part['segment'] for part in trigger['segments']]
+            fact['crosses_split'] = trigger['crosses_split']
         claims[trigger_no] = fact
         if trigger is None:
             extras.append(fact)
-    confirmed = [claims.get(t['number'], {'bottle': None, 'state': 'no_bottle', 'trigger': t['number']}) for t in triggers]
+    confirmed = [claims.get(t['number'], {'bottle': None, 'state': 'no_bottle', 'trigger': t['number']})
+                 for t in triggers]
     return confirmed + extras
