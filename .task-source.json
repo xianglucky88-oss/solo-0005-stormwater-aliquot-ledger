@@ -1,0 +1,9 @@
+{
+  "project_domain": "数据工程",
+  "project_subdirection": "其他",
+  "profile": "local-only",
+  "source_project": "stormwater-aliquot-ledger",
+  "runtime": "Python 3.14 + sqlite3",
+  "entrypoint": "python3 -m aliquot",
+  "data_origin": "synthetic"
+}
