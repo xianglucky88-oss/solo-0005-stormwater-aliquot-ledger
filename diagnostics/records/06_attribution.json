@@ -1,0 +1,455 @@
+{
+  "cross_edition_attribution": [
+    {
+      "assay": "a4",
+      "between": [
+        "baseline",
+        "revised"
+      ],
+      "from_verdict": "holding_ok_attributable",
+      "holding_change_attributable": false,
+      "reason": "a non-received bottle or pre-receipt/invalid assay blocks the holding-time question; custody, not hold time, is the proximate gate",
+      "to_verdict": "holding_question_blocked_custody_incomplete"
+    },
+    {
+      "assay": "a5",
+      "between": [
+        "baseline",
+        "revised"
+      ],
+      "from_verdict": "holding_violation_attributable",
+      "holding_change_attributable": false,
+      "reason": "a non-received bottle or pre-receipt/invalid assay blocks the holding-time question; custody, not hold time, is the proximate gate",
+      "to_verdict": "holding_question_blocked_custody_incomplete"
+    },
+    {
+      "assay": "a3",
+      "between": [
+        "baseline",
+        "control"
+      ],
+      "from_verdict": "holding_question_blocked_custody_incomplete",
+      "holding_change_attributable": false,
+      "reason": "a non-received bottle or pre-receipt/invalid assay blocks the holding-time question; custody, not hold time, is the proximate gate",
+      "to_verdict": "holding_ok_attributable"
+    },
+    {
+      "assay": "a4",
+      "between": [
+        "baseline",
+        "control"
+      ],
+      "from_verdict": "holding_ok_attributable",
+      "holding_change_attributable": false,
+      "reason": "a non-received bottle or pre-receipt/invalid assay blocks the holding-time question; custody, not hold time, is the proximate gate",
+      "to_verdict": "holding_question_blocked_custody_incomplete"
+    },
+    {
+      "assay": "a5",
+      "between": [
+        "baseline",
+        "control"
+      ],
+      "from_verdict": "holding_violation_attributable",
+      "holding_change_attributable": false,
+      "reason": "a non-received bottle or pre-receipt/invalid assay blocks the holding-time question; custody, not hold time, is the proximate gate",
+      "to_verdict": "holding_question_blocked_custody_incomplete"
+    },
+    {
+      "assay": "a3",
+      "between": [
+        "revised",
+        "control"
+      ],
+      "from_verdict": "holding_question_blocked_custody_incomplete",
+      "holding_change_attributable": false,
+      "reason": "a non-received bottle or pre-receipt/invalid assay blocks the holding-time question; custody, not hold time, is the proximate gate",
+      "to_verdict": "holding_ok_attributable"
+    }
+  ],
+  "editions": {
+    "baseline": {
+      "assays": [
+        {
+          "assay": "a1",
+          "assay_state": "supported",
+          "bottle": "b1",
+          "bottle_state": "received",
+          "holding_time_attributable": true,
+          "method": "m1",
+          "method_hold_s": 60,
+          "trigger_locator_only": 1,
+          "verdict": "holding_ok_attributable"
+        },
+        {
+          "assay": "a2",
+          "assay_state": "supported",
+          "bottle": "b2",
+          "bottle_state": "received",
+          "holding_time_attributable": true,
+          "method": "m1",
+          "method_hold_s": 60,
+          "trigger_locator_only": 2,
+          "verdict": "holding_ok_attributable"
+        },
+        {
+          "assay": "a3",
+          "assay_state": "bottle_unusable",
+          "bottle": "b3",
+          "bottle_state": "incomplete_custody",
+          "holding_time_attributable": false,
+          "method": "m1",
+          "method_hold_s": 60,
+          "trigger_locator_only": 3,
+          "verdict": "holding_question_blocked_custody_incomplete"
+        },
+        {
+          "assay": "a4",
+          "assay_state": "supported",
+          "bottle": "b4",
+          "bottle_state": "received",
+          "holding_time_attributable": true,
+          "method": "m1",
+          "method_hold_s": 60,
+          "trigger_locator_only": 4,
+          "verdict": "holding_ok_attributable"
+        },
+        {
+          "assay": "a5",
+          "assay_state": "holding_expired",
+          "bottle": "b4",
+          "bottle_state": "received",
+          "holding_time_attributable": true,
+          "method": "m2",
+          "method_hold_s": 20,
+          "trigger_locator_only": 4,
+          "verdict": "holding_violation_attributable"
+        },
+        {
+          "assay": "a6",
+          "assay_state": "bottle_unusable",
+          "bottle": "b6",
+          "bottle_state": "unconfirmed_trigger",
+          "holding_time_attributable": false,
+          "method": "m2",
+          "method_hold_s": 20,
+          "trigger_locator_only": 6,
+          "verdict": "holding_question_blocked_custody_incomplete"
+        }
+      ],
+      "bottles": [
+        {
+          "bottle": "b1",
+          "received_s": 22,
+          "sampled_s": 12,
+          "state": "received",
+          "trigger_locator": 1
+        },
+        {
+          "bottle": "b2",
+          "received_s": 30,
+          "sampled_s": 20,
+          "state": "received",
+          "trigger_locator": 2
+        },
+        {
+          "bottle": "b3",
+          "received_s": null,
+          "sampled_s": 41,
+          "state": "incomplete_custody",
+          "trigger_locator": 3
+        },
+        {
+          "bottle": "b4",
+          "received_s": 62,
+          "sampled_s": 52,
+          "state": "received",
+          "trigger_locator": 4
+        },
+        {
+          "bottle": "b6",
+          "received_s": null,
+          "sampled_s": 84,
+          "state": "unconfirmed_trigger",
+          "trigger_locator": 6
+        }
+      ],
+      "methods": {
+        "m1": {
+          "assays": [
+            "a1",
+            "a2",
+            "a4"
+          ],
+          "known_liters_without_assay": 42,
+          "load_mg": [
+            20,
+            50
+          ],
+          "supported_liters": 30
+        },
+        "m2": {
+          "assays": [],
+          "known_liters_without_assay": 72,
+          "load_mg": null,
+          "supported_liters": 0
+        }
+      }
+    },
+    "control": {
+      "assays": [
+        {
+          "assay": "a1",
+          "assay_state": "supported",
+          "bottle": "b1",
+          "bottle_state": "received",
+          "holding_time_attributable": true,
+          "method": "m1",
+          "method_hold_s": 60,
+          "trigger_locator_only": 1,
+          "verdict": "holding_ok_attributable"
+        },
+        {
+          "assay": "a2",
+          "assay_state": "supported",
+          "bottle": "b2",
+          "bottle_state": "received",
+          "holding_time_attributable": true,
+          "method": "m1",
+          "method_hold_s": 60,
+          "trigger_locator_only": 2,
+          "verdict": "holding_ok_attributable"
+        },
+        {
+          "assay": "a3",
+          "assay_state": "supported",
+          "bottle": "b3",
+          "bottle_state": "received",
+          "holding_time_attributable": true,
+          "method": "m1",
+          "method_hold_s": 60,
+          "trigger_locator_only": 3,
+          "verdict": "holding_ok_attributable"
+        },
+        {
+          "assay": "a4",
+          "assay_state": "bottle_unusable",
+          "bottle": "b4",
+          "bottle_state": "incomplete_custody",
+          "holding_time_attributable": false,
+          "method": "m1",
+          "method_hold_s": 60,
+          "trigger_locator_only": 4,
+          "verdict": "holding_question_blocked_custody_incomplete"
+        },
+        {
+          "assay": "a5",
+          "assay_state": "bottle_unusable",
+          "bottle": "b4",
+          "bottle_state": "incomplete_custody",
+          "holding_time_attributable": false,
+          "method": "m2",
+          "method_hold_s": 20,
+          "trigger_locator_only": 4,
+          "verdict": "holding_question_blocked_custody_incomplete"
+        },
+        {
+          "assay": "a6",
+          "assay_state": "bottle_unusable",
+          "bottle": "b6",
+          "bottle_state": "unconfirmed_trigger",
+          "holding_time_attributable": false,
+          "method": "m2",
+          "method_hold_s": 20,
+          "trigger_locator_only": 6,
+          "verdict": "holding_question_blocked_custody_incomplete"
+        }
+      ],
+      "bottles": [
+        {
+          "bottle": "b1",
+          "received_s": 22,
+          "sampled_s": 12,
+          "state": "received",
+          "trigger_locator": 1
+        },
+        {
+          "bottle": "b2",
+          "received_s": 30,
+          "sampled_s": 20,
+          "state": "received",
+          "trigger_locator": 2
+        },
+        {
+          "bottle": "b3",
+          "received_s": 51,
+          "sampled_s": 41,
+          "state": "received",
+          "trigger_locator": 3
+        },
+        {
+          "bottle": "b4",
+          "received_s": null,
+          "sampled_s": 52,
+          "state": "incomplete_custody",
+          "trigger_locator": 4
+        },
+        {
+          "bottle": "b6",
+          "received_s": null,
+          "sampled_s": 84,
+          "state": "unconfirmed_trigger",
+          "trigger_locator": 6
+        }
+      ],
+      "methods": {
+        "m1": {
+          "assays": [
+            "a1",
+            "a2",
+            "a3"
+          ],
+          "known_liters_without_assay": 42,
+          "load_mg": [
+            20,
+            50
+          ],
+          "supported_liters": 30
+        },
+        "m2": {
+          "assays": [],
+          "known_liters_without_assay": 72,
+          "load_mg": null,
+          "supported_liters": 0
+        }
+      }
+    },
+    "revised": {
+      "assays": [
+        {
+          "assay": "a1",
+          "assay_state": "supported",
+          "bottle": "b1",
+          "bottle_state": "received",
+          "holding_time_attributable": true,
+          "method": "m1",
+          "method_hold_s": 60,
+          "trigger_locator_only": 1,
+          "verdict": "holding_ok_attributable"
+        },
+        {
+          "assay": "a2",
+          "assay_state": "supported",
+          "bottle": "b2",
+          "bottle_state": "received",
+          "holding_time_attributable": true,
+          "method": "m1",
+          "method_hold_s": 60,
+          "trigger_locator_only": 2,
+          "verdict": "holding_ok_attributable"
+        },
+        {
+          "assay": "a3",
+          "assay_state": "bottle_unusable",
+          "bottle": "b3",
+          "bottle_state": "incomplete_custody",
+          "holding_time_attributable": false,
+          "method": "m1",
+          "method_hold_s": 60,
+          "trigger_locator_only": 3,
+          "verdict": "holding_question_blocked_custody_incomplete"
+        },
+        {
+          "assay": "a4",
+          "assay_state": "bottle_unusable",
+          "bottle": "b4",
+          "bottle_state": "incomplete_custody",
+          "holding_time_attributable": false,
+          "method": "m1",
+          "method_hold_s": 60,
+          "trigger_locator_only": 4,
+          "verdict": "holding_question_blocked_custody_incomplete"
+        },
+        {
+          "assay": "a5",
+          "assay_state": "bottle_unusable",
+          "bottle": "b4",
+          "bottle_state": "incomplete_custody",
+          "holding_time_attributable": false,
+          "method": "m2",
+          "method_hold_s": 20,
+          "trigger_locator_only": 4,
+          "verdict": "holding_question_blocked_custody_incomplete"
+        },
+        {
+          "assay": "a6",
+          "assay_state": "bottle_unusable",
+          "bottle": "b6",
+          "bottle_state": "unconfirmed_trigger",
+          "holding_time_attributable": false,
+          "method": "m2",
+          "method_hold_s": 20,
+          "trigger_locator_only": 6,
+          "verdict": "holding_question_blocked_custody_incomplete"
+        }
+      ],
+      "bottles": [
+        {
+          "bottle": "b1",
+          "received_s": 22,
+          "sampled_s": 12,
+          "state": "received",
+          "trigger_locator": 1
+        },
+        {
+          "bottle": "b2",
+          "received_s": 30,
+          "sampled_s": 20,
+          "state": "received",
+          "trigger_locator": 2
+        },
+        {
+          "bottle": "b3",
+          "received_s": null,
+          "sampled_s": 41,
+          "state": "incomplete_custody",
+          "trigger_locator": 3
+        },
+        {
+          "bottle": "b4",
+          "received_s": null,
+          "sampled_s": 52,
+          "state": "incomplete_custody",
+          "trigger_locator": 4
+        },
+        {
+          "bottle": "b6",
+          "received_s": null,
+          "sampled_s": 84,
+          "state": "unconfirmed_trigger",
+          "trigger_locator": 6
+        }
+      ],
+      "methods": {
+        "m1": {
+          "assays": [
+            "a1",
+            "a2"
+          ],
+          "known_liters_without_assay": 52,
+          "load_mg": [
+            0,
+            30
+          ],
+          "supported_liters": 20
+        },
+        "m2": {
+          "assays": [],
+          "known_liters_without_assay": 72,
+          "load_mg": null,
+          "supported_liters": 0
+        }
+      }
+    }
+  }
+}

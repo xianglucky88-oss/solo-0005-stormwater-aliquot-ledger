@@ -1,0 +1,1608 @@
+{
+  "flow_coverage": {
+    "baseline": [
+      {
+        "certified_anchored_liters_in_window": 52,
+        "event_anchored_prefix_liters": 52,
+        "event_known_liters": 72,
+        "known_but_unanchored_liters_in_window": 0,
+        "no_calibration_gap_seconds_in_window": 0,
+        "note": "unanchored liters and gaps are never treated as measured zero",
+        "window_s": [
+          0,
+          65
+        ]
+      },
+      {
+        "certified_anchored_liters_in_window": "96/7",
+        "event_anchored_prefix_liters": 52,
+        "event_known_liters": 72,
+        "known_but_unanchored_liters_in_window": 0,
+        "no_calibration_gap_seconds_in_window": 0,
+        "note": "unanchored liters and gaps are never treated as measured zero",
+        "window_s": [
+          40,
+          55
+        ]
+      },
+      {
+        "certified_anchored_liters_in_window": 16,
+        "event_anchored_prefix_liters": 52,
+        "event_known_liters": 72,
+        "known_but_unanchored_liters_in_window": 0,
+        "no_calibration_gap_seconds_in_window": 0,
+        "note": "unanchored liters and gaps are never treated as measured zero",
+        "window_s": [
+          5,
+          25
+        ]
+      },
+      {
+        "certified_anchored_liters_in_window": 52,
+        "event_anchored_prefix_liters": 52,
+        "event_known_liters": 72,
+        "known_but_unanchored_liters_in_window": 20,
+        "no_calibration_gap_seconds_in_window": 10,
+        "note": "unanchored liters and gaps are never treated as measured zero",
+        "window_s": [
+          0,
+          100
+        ]
+      },
+      {
+        "certified_anchored_liters_in_window": 0,
+        "event_anchored_prefix_liters": 52,
+        "event_known_liters": 72,
+        "known_but_unanchored_liters_in_window": 12,
+        "no_calibration_gap_seconds_in_window": 5,
+        "note": "unanchored liters and gaps are never treated as measured zero",
+        "window_s": [
+          70,
+          90
+        ]
+      }
+    ],
+    "control": [
+      {
+        "certified_anchored_liters_in_window": 52,
+        "event_anchored_prefix_liters": 52,
+        "event_known_liters": 72,
+        "known_but_unanchored_liters_in_window": 0,
+        "no_calibration_gap_seconds_in_window": 0,
+        "note": "unanchored liters and gaps are never treated as measured zero",
+        "window_s": [
+          0,
+          65
+        ]
+      },
+      {
+        "certified_anchored_liters_in_window": "96/7",
+        "event_anchored_prefix_liters": 52,
+        "event_known_liters": 72,
+        "known_but_unanchored_liters_in_window": 0,
+        "no_calibration_gap_seconds_in_window": 0,
+        "note": "unanchored liters and gaps are never treated as measured zero",
+        "window_s": [
+          40,
+          55
+        ]
+      },
+      {
+        "certified_anchored_liters_in_window": 16,
+        "event_anchored_prefix_liters": 52,
+        "event_known_liters": 72,
+        "known_but_unanchored_liters_in_window": 0,
+        "no_calibration_gap_seconds_in_window": 0,
+        "note": "unanchored liters and gaps are never treated as measured zero",
+        "window_s": [
+          5,
+          25
+        ]
+      },
+      {
+        "certified_anchored_liters_in_window": 52,
+        "event_anchored_prefix_liters": 52,
+        "event_known_liters": 72,
+        "known_but_unanchored_liters_in_window": 20,
+        "no_calibration_gap_seconds_in_window": 10,
+        "note": "unanchored liters and gaps are never treated as measured zero",
+        "window_s": [
+          0,
+          100
+        ]
+      },
+      {
+        "certified_anchored_liters_in_window": 0,
+        "event_anchored_prefix_liters": 52,
+        "event_known_liters": 72,
+        "known_but_unanchored_liters_in_window": 12,
+        "no_calibration_gap_seconds_in_window": 5,
+        "note": "unanchored liters and gaps are never treated as measured zero",
+        "window_s": [
+          70,
+          90
+        ]
+      }
+    ],
+    "revised": [
+      {
+        "certified_anchored_liters_in_window": 52,
+        "event_anchored_prefix_liters": 52,
+        "event_known_liters": 72,
+        "known_but_unanchored_liters_in_window": 0,
+        "no_calibration_gap_seconds_in_window": 0,
+        "note": "unanchored liters and gaps are never treated as measured zero",
+        "window_s": [
+          0,
+          65
+        ]
+      },
+      {
+        "certified_anchored_liters_in_window": "96/7",
+        "event_anchored_prefix_liters": 52,
+        "event_known_liters": 72,
+        "known_but_unanchored_liters_in_window": 0,
+        "no_calibration_gap_seconds_in_window": 0,
+        "note": "unanchored liters and gaps are never treated as measured zero",
+        "window_s": [
+          40,
+          55
+        ]
+      },
+      {
+        "certified_anchored_liters_in_window": 16,
+        "event_anchored_prefix_liters": 52,
+        "event_known_liters": 72,
+        "known_but_unanchored_liters_in_window": 0,
+        "no_calibration_gap_seconds_in_window": 0,
+        "note": "unanchored liters and gaps are never treated as measured zero",
+        "window_s": [
+          5,
+          25
+        ]
+      },
+      {
+        "certified_anchored_liters_in_window": 52,
+        "event_anchored_prefix_liters": 52,
+        "event_known_liters": 72,
+        "known_but_unanchored_liters_in_window": 20,
+        "no_calibration_gap_seconds_in_window": 10,
+        "note": "unanchored liters and gaps are never treated as measured zero",
+        "window_s": [
+          0,
+          100
+        ]
+      },
+      {
+        "certified_anchored_liters_in_window": 0,
+        "event_anchored_prefix_liters": 52,
+        "event_known_liters": 72,
+        "known_but_unanchored_liters_in_window": 12,
+        "no_calibration_gap_seconds_in_window": 5,
+        "note": "unanchored liters and gaps are never treated as measured zero",
+        "window_s": [
+          70,
+          90
+        ]
+      }
+    ]
+  },
+  "footprints": {
+    "baseline": {
+      "1": {
+        "at_s_reducer": "35/3",
+        "seconds": [
+          0,
+          "35/3"
+        ],
+        "segments": [
+          {
+            "piece_liters": 8,
+            "run": "f1",
+            "seconds": [
+              0,
+              10
+            ]
+          },
+          {
+            "piece_liters": 2,
+            "run": "f2",
+            "seconds": [
+              10,
+              "35/3"
+            ]
+          }
+        ],
+        "volume_l": [
+          0,
+          10
+        ]
+      },
+      "2": {
+        "at_s_reducer": 20,
+        "seconds": [
+          "35/3",
+          20
+        ],
+        "segments": [
+          {
+            "piece_liters": 10,
+            "run": "f2",
+            "seconds": [
+              "35/3",
+              20
+            ]
+          }
+        ],
+        "volume_l": [
+          10,
+          20
+        ]
+      },
+      "3": {
+        "at_s_reducer": "655/16",
+        "seconds": [
+          30,
+          "655/16"
+        ],
+        "segments": [
+          {
+            "piece_liters": 10,
+            "run": "f3",
+            "seconds": [
+              30,
+              "655/16"
+            ]
+          }
+        ],
+        "volume_l": [
+          20,
+          30
+        ]
+      },
+      "4": {
+        "at_s_reducer": "415/8",
+        "seconds": [
+          "655/16",
+          "415/8"
+        ],
+        "segments": [
+          {
+            "piece_liters": 10,
+            "run": "f3",
+            "seconds": [
+              "655/16",
+              "415/8"
+            ]
+          }
+        ],
+        "volume_l": [
+          30,
+          40
+        ]
+      },
+      "5": {
+        "at_s_reducer": "1005/16",
+        "seconds": [
+          "415/8",
+          "1005/16"
+        ],
+        "segments": [
+          {
+            "piece_liters": 10,
+            "run": "f3",
+            "seconds": [
+              "415/8",
+              "1005/16"
+            ]
+          }
+        ],
+        "volume_l": [
+          40,
+          50
+        ]
+      }
+    },
+    "control": {
+      "1": {
+        "at_s_reducer": "35/3",
+        "seconds": [
+          0,
+          "35/3"
+        ],
+        "segments": [
+          {
+            "piece_liters": 8,
+            "run": "f1",
+            "seconds": [
+              0,
+              10
+            ]
+          },
+          {
+            "piece_liters": 2,
+            "run": "f2",
+            "seconds": [
+              10,
+              "35/3"
+            ]
+          }
+        ],
+        "volume_l": [
+          0,
+          10
+        ]
+      },
+      "2": {
+        "at_s_reducer": 20,
+        "seconds": [
+          "35/3",
+          20
+        ],
+        "segments": [
+          {
+            "piece_liters": 10,
+            "run": "f2",
+            "seconds": [
+              "35/3",
+              20
+            ]
+          }
+        ],
+        "volume_l": [
+          10,
+          20
+        ]
+      },
+      "3": {
+        "at_s_reducer": "655/16",
+        "seconds": [
+          30,
+          "655/16"
+        ],
+        "segments": [
+          {
+            "piece_liters": 10,
+            "run": "f3",
+            "seconds": [
+              30,
+              "655/16"
+            ]
+          }
+        ],
+        "volume_l": [
+          20,
+          30
+        ]
+      },
+      "4": {
+        "at_s_reducer": "415/8",
+        "seconds": [
+          "655/16",
+          "415/8"
+        ],
+        "segments": [
+          {
+            "piece_liters": 10,
+            "run": "f3",
+            "seconds": [
+              "655/16",
+              "415/8"
+            ]
+          }
+        ],
+        "volume_l": [
+          30,
+          40
+        ]
+      },
+      "5": {
+        "at_s_reducer": "1005/16",
+        "seconds": [
+          "415/8",
+          "1005/16"
+        ],
+        "segments": [
+          {
+            "piece_liters": 10,
+            "run": "f3",
+            "seconds": [
+              "415/8",
+              "1005/16"
+            ]
+          }
+        ],
+        "volume_l": [
+          40,
+          50
+        ]
+      }
+    },
+    "revised": {
+      "1": {
+        "at_s_reducer": "35/3",
+        "seconds": [
+          0,
+          "35/3"
+        ],
+        "segments": [
+          {
+            "piece_liters": 8,
+            "run": "f1",
+            "seconds": [
+              0,
+              10
+            ]
+          },
+          {
+            "piece_liters": 2,
+            "run": "f2",
+            "seconds": [
+              10,
+              "35/3"
+            ]
+          }
+        ],
+        "volume_l": [
+          0,
+          10
+        ]
+      },
+      "2": {
+        "at_s_reducer": 20,
+        "seconds": [
+          "35/3",
+          20
+        ],
+        "segments": [
+          {
+            "piece_liters": 10,
+            "run": "f2",
+            "seconds": [
+              "35/3",
+              20
+            ]
+          }
+        ],
+        "volume_l": [
+          10,
+          20
+        ]
+      },
+      "3": {
+        "at_s_reducer": "655/16",
+        "seconds": [
+          30,
+          "655/16"
+        ],
+        "segments": [
+          {
+            "piece_liters": 10,
+            "run": "f3",
+            "seconds": [
+              30,
+              "655/16"
+            ]
+          }
+        ],
+        "volume_l": [
+          20,
+          30
+        ]
+      },
+      "4": {
+        "at_s_reducer": "415/8",
+        "seconds": [
+          "655/16",
+          "415/8"
+        ],
+        "segments": [
+          {
+            "piece_liters": 10,
+            "run": "f3",
+            "seconds": [
+              "655/16",
+              "415/8"
+            ]
+          }
+        ],
+        "volume_l": [
+          30,
+          40
+        ]
+      },
+      "5": {
+        "at_s_reducer": "1005/16",
+        "seconds": [
+          "415/8",
+          "1005/16"
+        ],
+        "segments": [
+          {
+            "piece_liters": 10,
+            "run": "f3",
+            "seconds": [
+              "415/8",
+              "1005/16"
+            ]
+          }
+        ],
+        "volume_l": [
+          40,
+          50
+        ]
+      }
+    }
+  },
+  "reconciliation": {
+    "baseline": [
+      {
+        "certified_supported_liters_in_window": 30,
+        "comparability": "direct_exact",
+        "defensible_load_bounds_mg": [
+          20,
+          50
+        ],
+        "exact_load_mg": [
+          20,
+          50
+        ],
+        "method": "m1",
+        "rows": [
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              0,
+              30
+            ],
+            "footprint_s": [
+              0,
+              "35/3"
+            ],
+            "full_trigger_load_mg": [
+              0,
+              30
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 1
+          },
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              "35/3",
+              20
+            ],
+            "full_trigger_load_mg": [
+              0,
+              0
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 2
+          },
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              20,
+              20
+            ],
+            "footprint_s": [
+              "655/16",
+              "415/8"
+            ],
+            "full_trigger_load_mg": [
+              20,
+              20
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 4
+          }
+        ],
+        "supported_triggers_present": [
+          1,
+          2,
+          4
+        ],
+        "window_s": [
+          0,
+          65
+        ]
+      },
+      {
+        "certified_supported_liters_in_window": 10,
+        "comparability": "direct_exact",
+        "defensible_load_bounds_mg": [
+          20,
+          20
+        ],
+        "exact_load_mg": [
+          20,
+          20
+        ],
+        "method": "m1",
+        "rows": [
+          {
+            "certified_piece_liters": 0,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              0,
+              "35/3"
+            ],
+            "full_trigger_load_mg": [
+              0,
+              30
+            ],
+            "load_is_exact": false,
+            "relation": "outside",
+            "trigger": 1
+          },
+          {
+            "certified_piece_liters": 0,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              "35/3",
+              20
+            ],
+            "full_trigger_load_mg": [
+              0,
+              0
+            ],
+            "load_is_exact": false,
+            "relation": "outside",
+            "trigger": 2
+          },
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              20,
+              20
+            ],
+            "footprint_s": [
+              "655/16",
+              "415/8"
+            ],
+            "full_trigger_load_mg": [
+              20,
+              20
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 4
+          }
+        ],
+        "supported_triggers_present": [
+          1,
+          2,
+          4
+        ],
+        "window_s": [
+          40,
+          55
+        ]
+      },
+      {
+        "certified_supported_liters_in_window": 16,
+        "comparability": "bounds_only_no_proration",
+        "defensible_load_bounds_mg": [
+          0,
+          30
+        ],
+        "exact_load_mg": null,
+        "method": "m1",
+        "rows": [
+          {
+            "certified_piece_liters": 6,
+            "defensible_load_in_window_mg": [
+              0,
+              30
+            ],
+            "footprint_s": [
+              0,
+              "35/3"
+            ],
+            "full_trigger_load_mg": [
+              0,
+              30
+            ],
+            "load_is_exact": false,
+            "relation": "partial",
+            "trigger": 1
+          },
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              "35/3",
+              20
+            ],
+            "full_trigger_load_mg": [
+              0,
+              0
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 2
+          },
+          {
+            "certified_piece_liters": 0,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              "655/16",
+              "415/8"
+            ],
+            "full_trigger_load_mg": [
+              20,
+              20
+            ],
+            "load_is_exact": false,
+            "relation": "outside",
+            "trigger": 4
+          }
+        ],
+        "supported_triggers_present": [
+          1,
+          2,
+          4
+        ],
+        "window_s": [
+          5,
+          25
+        ]
+      },
+      {
+        "certified_supported_liters_in_window": 30,
+        "comparability": "direct_exact",
+        "defensible_load_bounds_mg": [
+          20,
+          50
+        ],
+        "exact_load_mg": [
+          20,
+          50
+        ],
+        "method": "m1",
+        "rows": [
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              0,
+              30
+            ],
+            "footprint_s": [
+              0,
+              "35/3"
+            ],
+            "full_trigger_load_mg": [
+              0,
+              30
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 1
+          },
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              "35/3",
+              20
+            ],
+            "full_trigger_load_mg": [
+              0,
+              0
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 2
+          },
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              20,
+              20
+            ],
+            "footprint_s": [
+              "655/16",
+              "415/8"
+            ],
+            "full_trigger_load_mg": [
+              20,
+              20
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 4
+          }
+        ],
+        "supported_triggers_present": [
+          1,
+          2,
+          4
+        ],
+        "window_s": [
+          0,
+          100
+        ]
+      },
+      {
+        "certified_supported_liters_in_window": 0,
+        "comparability": "no_certified_support_evidence_insufficient",
+        "defensible_load_bounds_mg": [
+          0,
+          0
+        ],
+        "exact_load_mg": [
+          0,
+          0
+        ],
+        "method": "m1",
+        "rows": [
+          {
+            "certified_piece_liters": 0,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              0,
+              "35/3"
+            ],
+            "full_trigger_load_mg": [
+              0,
+              30
+            ],
+            "load_is_exact": false,
+            "relation": "outside",
+            "trigger": 1
+          },
+          {
+            "certified_piece_liters": 0,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              "35/3",
+              20
+            ],
+            "full_trigger_load_mg": [
+              0,
+              0
+            ],
+            "load_is_exact": false,
+            "relation": "outside",
+            "trigger": 2
+          },
+          {
+            "certified_piece_liters": 0,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              "655/16",
+              "415/8"
+            ],
+            "full_trigger_load_mg": [
+              20,
+              20
+            ],
+            "load_is_exact": false,
+            "relation": "outside",
+            "trigger": 4
+          }
+        ],
+        "supported_triggers_present": [
+          1,
+          2,
+          4
+        ],
+        "window_s": [
+          70,
+          90
+        ]
+      }
+    ],
+    "control": [
+      {
+        "certified_supported_liters_in_window": 30,
+        "comparability": "direct_exact",
+        "defensible_load_bounds_mg": [
+          20,
+          50
+        ],
+        "exact_load_mg": [
+          20,
+          50
+        ],
+        "method": "m1",
+        "rows": [
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              0,
+              30
+            ],
+            "footprint_s": [
+              0,
+              "35/3"
+            ],
+            "full_trigger_load_mg": [
+              0,
+              30
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 1
+          },
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              "35/3",
+              20
+            ],
+            "full_trigger_load_mg": [
+              0,
+              0
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 2
+          },
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              20,
+              20
+            ],
+            "footprint_s": [
+              30,
+              "655/16"
+            ],
+            "full_trigger_load_mg": [
+              20,
+              20
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 3
+          }
+        ],
+        "supported_triggers_present": [
+          1,
+          2,
+          3
+        ],
+        "window_s": [
+          0,
+          65
+        ]
+      },
+      {
+        "certified_supported_liters_in_window": "6/7",
+        "comparability": "bounds_only_no_proration",
+        "defensible_load_bounds_mg": [
+          0,
+          20
+        ],
+        "exact_load_mg": null,
+        "method": "m1",
+        "rows": [
+          {
+            "certified_piece_liters": 0,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              0,
+              "35/3"
+            ],
+            "full_trigger_load_mg": [
+              0,
+              30
+            ],
+            "load_is_exact": false,
+            "relation": "outside",
+            "trigger": 1
+          },
+          {
+            "certified_piece_liters": 0,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              "35/3",
+              20
+            ],
+            "full_trigger_load_mg": [
+              0,
+              0
+            ],
+            "load_is_exact": false,
+            "relation": "outside",
+            "trigger": 2
+          },
+          {
+            "certified_piece_liters": "6/7",
+            "defensible_load_in_window_mg": [
+              0,
+              20
+            ],
+            "footprint_s": [
+              30,
+              "655/16"
+            ],
+            "full_trigger_load_mg": [
+              20,
+              20
+            ],
+            "load_is_exact": false,
+            "relation": "partial",
+            "trigger": 3
+          }
+        ],
+        "supported_triggers_present": [
+          1,
+          2,
+          3
+        ],
+        "window_s": [
+          40,
+          55
+        ]
+      },
+      {
+        "certified_supported_liters_in_window": 16,
+        "comparability": "bounds_only_no_proration",
+        "defensible_load_bounds_mg": [
+          0,
+          30
+        ],
+        "exact_load_mg": null,
+        "method": "m1",
+        "rows": [
+          {
+            "certified_piece_liters": 6,
+            "defensible_load_in_window_mg": [
+              0,
+              30
+            ],
+            "footprint_s": [
+              0,
+              "35/3"
+            ],
+            "full_trigger_load_mg": [
+              0,
+              30
+            ],
+            "load_is_exact": false,
+            "relation": "partial",
+            "trigger": 1
+          },
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              "35/3",
+              20
+            ],
+            "full_trigger_load_mg": [
+              0,
+              0
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 2
+          },
+          {
+            "certified_piece_liters": 0,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              30,
+              "655/16"
+            ],
+            "full_trigger_load_mg": [
+              20,
+              20
+            ],
+            "load_is_exact": false,
+            "relation": "outside",
+            "trigger": 3
+          }
+        ],
+        "supported_triggers_present": [
+          1,
+          2,
+          3
+        ],
+        "window_s": [
+          5,
+          25
+        ]
+      },
+      {
+        "certified_supported_liters_in_window": 30,
+        "comparability": "direct_exact",
+        "defensible_load_bounds_mg": [
+          20,
+          50
+        ],
+        "exact_load_mg": [
+          20,
+          50
+        ],
+        "method": "m1",
+        "rows": [
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              0,
+              30
+            ],
+            "footprint_s": [
+              0,
+              "35/3"
+            ],
+            "full_trigger_load_mg": [
+              0,
+              30
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 1
+          },
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              "35/3",
+              20
+            ],
+            "full_trigger_load_mg": [
+              0,
+              0
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 2
+          },
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              20,
+              20
+            ],
+            "footprint_s": [
+              30,
+              "655/16"
+            ],
+            "full_trigger_load_mg": [
+              20,
+              20
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 3
+          }
+        ],
+        "supported_triggers_present": [
+          1,
+          2,
+          3
+        ],
+        "window_s": [
+          0,
+          100
+        ]
+      },
+      {
+        "certified_supported_liters_in_window": 0,
+        "comparability": "no_certified_support_evidence_insufficient",
+        "defensible_load_bounds_mg": [
+          0,
+          0
+        ],
+        "exact_load_mg": [
+          0,
+          0
+        ],
+        "method": "m1",
+        "rows": [
+          {
+            "certified_piece_liters": 0,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              0,
+              "35/3"
+            ],
+            "full_trigger_load_mg": [
+              0,
+              30
+            ],
+            "load_is_exact": false,
+            "relation": "outside",
+            "trigger": 1
+          },
+          {
+            "certified_piece_liters": 0,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              "35/3",
+              20
+            ],
+            "full_trigger_load_mg": [
+              0,
+              0
+            ],
+            "load_is_exact": false,
+            "relation": "outside",
+            "trigger": 2
+          },
+          {
+            "certified_piece_liters": 0,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              30,
+              "655/16"
+            ],
+            "full_trigger_load_mg": [
+              20,
+              20
+            ],
+            "load_is_exact": false,
+            "relation": "outside",
+            "trigger": 3
+          }
+        ],
+        "supported_triggers_present": [
+          1,
+          2,
+          3
+        ],
+        "window_s": [
+          70,
+          90
+        ]
+      }
+    ],
+    "revised": [
+      {
+        "certified_supported_liters_in_window": 20,
+        "comparability": "direct_exact",
+        "defensible_load_bounds_mg": [
+          0,
+          30
+        ],
+        "exact_load_mg": [
+          0,
+          30
+        ],
+        "method": "m1",
+        "rows": [
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              0,
+              30
+            ],
+            "footprint_s": [
+              0,
+              "35/3"
+            ],
+            "full_trigger_load_mg": [
+              0,
+              30
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 1
+          },
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              "35/3",
+              20
+            ],
+            "full_trigger_load_mg": [
+              0,
+              0
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 2
+          }
+        ],
+        "supported_triggers_present": [
+          1,
+          2
+        ],
+        "window_s": [
+          0,
+          65
+        ]
+      },
+      {
+        "certified_supported_liters_in_window": 0,
+        "comparability": "no_certified_support_evidence_insufficient",
+        "defensible_load_bounds_mg": [
+          0,
+          0
+        ],
+        "exact_load_mg": [
+          0,
+          0
+        ],
+        "method": "m1",
+        "rows": [
+          {
+            "certified_piece_liters": 0,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              0,
+              "35/3"
+            ],
+            "full_trigger_load_mg": [
+              0,
+              30
+            ],
+            "load_is_exact": false,
+            "relation": "outside",
+            "trigger": 1
+          },
+          {
+            "certified_piece_liters": 0,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              "35/3",
+              20
+            ],
+            "full_trigger_load_mg": [
+              0,
+              0
+            ],
+            "load_is_exact": false,
+            "relation": "outside",
+            "trigger": 2
+          }
+        ],
+        "supported_triggers_present": [
+          1,
+          2
+        ],
+        "window_s": [
+          40,
+          55
+        ]
+      },
+      {
+        "certified_supported_liters_in_window": 16,
+        "comparability": "bounds_only_no_proration",
+        "defensible_load_bounds_mg": [
+          0,
+          30
+        ],
+        "exact_load_mg": null,
+        "method": "m1",
+        "rows": [
+          {
+            "certified_piece_liters": 6,
+            "defensible_load_in_window_mg": [
+              0,
+              30
+            ],
+            "footprint_s": [
+              0,
+              "35/3"
+            ],
+            "full_trigger_load_mg": [
+              0,
+              30
+            ],
+            "load_is_exact": false,
+            "relation": "partial",
+            "trigger": 1
+          },
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              "35/3",
+              20
+            ],
+            "full_trigger_load_mg": [
+              0,
+              0
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 2
+          }
+        ],
+        "supported_triggers_present": [
+          1,
+          2
+        ],
+        "window_s": [
+          5,
+          25
+        ]
+      },
+      {
+        "certified_supported_liters_in_window": 20,
+        "comparability": "direct_exact",
+        "defensible_load_bounds_mg": [
+          0,
+          30
+        ],
+        "exact_load_mg": [
+          0,
+          30
+        ],
+        "method": "m1",
+        "rows": [
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              0,
+              30
+            ],
+            "footprint_s": [
+              0,
+              "35/3"
+            ],
+            "full_trigger_load_mg": [
+              0,
+              30
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 1
+          },
+          {
+            "certified_piece_liters": 10,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              "35/3",
+              20
+            ],
+            "full_trigger_load_mg": [
+              0,
+              0
+            ],
+            "load_is_exact": true,
+            "relation": "full",
+            "trigger": 2
+          }
+        ],
+        "supported_triggers_present": [
+          1,
+          2
+        ],
+        "window_s": [
+          0,
+          100
+        ]
+      },
+      {
+        "certified_supported_liters_in_window": 0,
+        "comparability": "no_certified_support_evidence_insufficient",
+        "defensible_load_bounds_mg": [
+          0,
+          0
+        ],
+        "exact_load_mg": [
+          0,
+          0
+        ],
+        "method": "m1",
+        "rows": [
+          {
+            "certified_piece_liters": 0,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              0,
+              "35/3"
+            ],
+            "full_trigger_load_mg": [
+              0,
+              30
+            ],
+            "load_is_exact": false,
+            "relation": "outside",
+            "trigger": 1
+          },
+          {
+            "certified_piece_liters": 0,
+            "defensible_load_in_window_mg": [
+              0,
+              0
+            ],
+            "footprint_s": [
+              "35/3",
+              20
+            ],
+            "full_trigger_load_mg": [
+              0,
+              0
+            ],
+            "load_is_exact": false,
+            "relation": "outside",
+            "trigger": 2
+          }
+        ],
+        "supported_triggers_present": [
+          1,
+          2
+        ],
+        "window_s": [
+          70,
+          90
+        ]
+      }
+    ]
+  }
+}
