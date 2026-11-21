@@ -13,6 +13,11 @@ def integer(value, label, minimum=None):
     return value
 
 
+def boolean(value, label):
+    require(type(value) is bool, f'invalid {label}: {value!r}')
+    return value
+
+
 def number(value, label, minimum=0):
     require(type(value) in (int, str), f'{label} must be an integer or exact numeric string')
     result = Fraction(value)

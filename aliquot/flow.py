@@ -3,13 +3,16 @@ from fractions import Fraction
 from .common import disjoint, number, require, scalar, span, unique
 
 
-def hydrograph(doc):
-    start, end = span(doc['event_seconds'], 'event window')
-    rate = number(doc['liters_per_unit'], 'flow calibration')
-    threshold = number(doc['trigger_liters'], 'trigger volume')
+def hydrograph_plan(runs, start, end, rate, threshold):
+    """Trigger geometry for one sampling plan on a shared cumulative-liter axis.
+
+    The axis origin is the event start. Absolute cumulative coordinates are only
+    provable for the anchored prefix before the first unmeasured gap; later
+    runs still contribute known single-segment volumes.
+    """
     require(rate > 0 and threshold > 0, 'calibration and trigger must be positive')
     rows = []
-    for key, row in unique(doc['runs']).items():
+    for key, row in unique(runs).items():
         lo, hi = span(row['seconds'], 'flow run')
         require(start <= lo < hi <= end, f'run outside event: {key}')
         volume = number(row['units'], 'flow units') * rate if row['units'] is not None else None
@@ -48,3 +51,10 @@ def hydrograph(doc):
         gaps.append({'seconds': [cursor, end], 'run': None})
     return {'runs': runoff, 'triggers': triggers, 'gaps': gaps,
             'known_liters': scalar(total), 'anchored_liters': scalar(prefix)}
+
+
+def hydrograph(doc):
+    start, end = span(doc['event_seconds'], 'event window')
+    rate = number(doc['liters_per_unit'], 'flow calibration')
+    threshold = number(doc['trigger_liters'], 'trigger volume')
+    return hydrograph_plan(doc['runs'], start, end, rate, threshold)

@@ -1,0 +1,172 @@
+{
+  "event": "storm-paired",
+  "event_seconds": [0, 100],
+  "liters_per_unit": 2,
+  "compare_method": {
+    "planA": "mA",
+    "planB": "mB"
+  },
+  "bottle_mixed": {
+    "planA": true,
+    "planB": true
+  },
+  "plans": [
+    {
+      "id": "planA",
+      "trigger_liters": 10,
+      "tolerance_s": 1,
+      "runs": [
+        {"id": "a1", "seconds": [0, 10], "units": 4},
+        {"id": "a2", "seconds": [10, 20], "units": 6},
+        {"id": "a3", "seconds": [20, 30], "units": 0},
+        {"id": "a4", "seconds": [30, 65], "units": 16},
+        {"id": "agap", "seconds": [65, 75], "units": null},
+        {"id": "a5", "seconds": [75, 100], "units": 10}
+      ],      "bottles": [
+        {
+          "id": "A-b1",
+          "trigger": 1,
+          "sampled_s": 12,
+          "custody": [
+            {"holder": "field", "at_s": 12},
+            {"holder": "transport", "at_s": 17},
+            {"holder": "lab", "at_s": 22}
+          ]
+        },
+        {
+          "id": "A-b2",
+          "trigger": 2,
+          "sampled_s": 20,
+          "custody": [
+            {"holder": "field", "at_s": 20},
+            {"holder": "transport", "at_s": 25},
+            {"holder": "lab", "at_s": 30}
+          ]
+        },
+        {
+          "id": "A-b3",
+          "trigger": 3,
+          "sampled_s": 41,
+          "custody": [
+            {"holder": "field", "at_s": 41},
+            {"holder": "transport", "at_s": 46}
+          ]
+        },
+        {
+          "id": "A-b4",
+          "trigger": 4,
+          "sampled_s": 52,
+          "custody": [
+            {"holder": "field", "at_s": 52},
+            {"holder": "transport", "at_s": 57},
+            {"holder": "lab", "at_s": 62}
+          ]
+        }
+      ],
+      "methods": [
+        {"id": "mA", "hold_s": 60}
+      ],
+      "assays": [
+        {"id": "A-a1", "bottle": "A-b1", "method": "mA", "at_s": 35,
+         "status": "measured", "mg_l": 4},
+        {"id": "A-a2", "bottle": "A-b2", "method": "mA", "at_s": 40,
+         "status": "measured", "mg_l": 0},
+        {"id": "A-a3", "bottle": "A-b3", "method": "mA", "at_s": 58,
+         "status": "measured", "mg_l": 9},
+        {"id": "A-a4", "bottle": "A-b4", "method": "mA", "at_s": 70,
+         "status": "measured", "mg_l": 2}
+      ]    },
+    {
+      "id": "planB",
+      "trigger_liters": "15/2",
+      "tolerance_s": 1,
+      "runs": [
+        {"id": "b1", "seconds": [0, 10], "units": 4},
+        {"id": "b2", "seconds": [10, 20], "units": 6},
+        {"id": "b3", "seconds": [20, 30], "units": 0},
+        {"id": "b4", "seconds": [30, 50], "units": "64/7"},
+        {"id": "b5", "seconds": [50, 65], "units": "48/7"},
+        {"id": "bgap", "seconds": [65, 75], "units": null},
+        {"id": "b6", "seconds": [75, 100], "units": 10}
+      ],
+      "bottles": [
+        {
+          "id": "B-b1",
+          "trigger": 1,
+          "sampled_s": 9,
+          "custody": [
+            {"holder": "field", "at_s": 9},
+            {"holder": "transport", "at_s": 14},
+            {"holder": "lab", "at_s": 19}
+          ]
+        },
+        {
+          "id": "B-b2",
+          "trigger": 2,
+          "sampled_s": 16,
+          "custody": [
+            {"holder": "field", "at_s": 16},
+            {"holder": "transport", "at_s": 21},
+            {"holder": "lab", "at_s": 26}
+          ]
+        },
+        {
+          "id": "B-b3",
+          "trigger": 3,
+          "sampled_s": 33,
+          "custody": [
+            {"holder": "field", "at_s": 33},
+            {"holder": "transport", "at_s": 38}
+          ]
+        },
+        {
+          "id": "B-b4",
+          "trigger": 4,
+          "sampled_s": 41,
+          "custody": [
+            {"holder": "field", "at_s": 41},
+            {"holder": "transport", "at_s": 46},
+            {"holder": "lab", "at_s": 51}
+          ]
+        },
+        {
+          "id": "B-b5",
+          "trigger": 5,
+          "sampled_s": 49,
+          "custody": [
+            {"holder": "field", "at_s": 49},
+            {"holder": "transport", "at_s": 54},
+            {"holder": "lab", "at_s": 59}
+          ]
+        },
+        {
+          "id": "B-b6",
+          "trigger": 6,
+          "sampled_s": 57,
+          "custody": [
+            {"holder": "field", "at_s": 57},
+            {"holder": "transport", "at_s": 62},
+            {"holder": "lab", "at_s": 67}
+          ]
+        }
+      ],
+      "methods": [
+        {"id": "mB", "hold_s": 30}
+      ],
+      "assays": [
+        {"id": "B-a1", "bottle": "B-b1", "method": "mB", "at_s": 25,
+         "status": "measured", "mg_l": 2},
+        {"id": "B-a2", "bottle": "B-b2", "method": "mB", "at_s": 35,
+         "status": "measured", "mg_l": 6},
+        {"id": "B-a3", "bottle": "B-b3", "method": "mB", "at_s": 50,
+         "status": "measured", "mg_l": 5},
+        {"id": "B-a4", "bottle": "B-b4", "method": "mB", "at_s": 65,
+         "status": "measured", "mg_l": 1},
+        {"id": "B-a5", "bottle": "B-b5", "method": "mB", "at_s": 70,
+         "status": "measured", "mg_l": 3},
+        {"id": "B-a6", "bottle": "B-b6", "method": "mB", "at_s": 80,
+         "status": "below_limit", "mg_l": 2}
+      ]
+    }
+  ]
+}
