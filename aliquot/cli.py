@@ -6,6 +6,7 @@ from pathlib import Path
 
 from .archive import history, load, publish
 from .common import decode, encode, require
+from .pair import compare_bundle
 from .workflow import DESCRIPTION, materialize
 
 
@@ -13,6 +14,7 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=DESCRIPTION)
     subs = parser.add_subparsers(dest='command', required=True)
     subs.add_parser('preview', help='compute results without writing an archive').add_argument('bundle', type=Path)
+    subs.add_parser('compare', help='compare two stations over a continuous delay range').add_argument('bundle', type=Path)
     rel = subs.add_parser('publish', help='commit one immutable edition')
     rel.add_argument('bundle', type=Path)
     rel.add_argument('archive', type=Path)
@@ -31,6 +33,9 @@ def main(argv=None):
                 result = materialize(doc)
                 if args.command == 'publish':
                     result = publish(args.archive, args.edition, doc, result)
+            case 'compare':
+                doc = decode(args.bundle.read_text(encoding='utf-8'))
+                result = compare_bundle(doc)
             case 'history':
                 result = history(args.archive)
             case 'replay':

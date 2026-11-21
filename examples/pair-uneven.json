@@ -1,0 +1,196 @@
+{
+  "event": "storm-pair-uneven",
+  "method": "m1",
+  "delay_s": [
+    30,
+    55
+  ],
+  "min_common_support_l": 15,
+  "max_load_difference_mg": 15,
+  "stations": {
+    "upstream": {
+      "event": "storm-pair-uneven",
+      "event_seconds": [
+        0,
+        20
+      ],
+      "liters_per_unit": 1,
+      "trigger_liters": 10,
+      "tolerance_s": 1,
+      "runs": [
+        {
+          "id": "u1",
+          "seconds": [
+            0,
+            10
+          ],
+          "units": 10
+        },
+        {
+          "id": "u2",
+          "seconds": [
+            10,
+            20
+          ],
+          "units": 10
+        }
+      ],
+      "bottles": [
+        {
+          "id": "ub1",
+          "trigger": 1,
+          "sampled_s": 10,
+          "custody": [
+            {
+              "holder": "field",
+              "at_s": 10
+            },
+            {
+              "holder": "transport",
+              "at_s": 12
+            },
+            {
+              "holder": "lab",
+              "at_s": 14
+            }
+          ]
+        },
+        {
+          "id": "ub2",
+          "trigger": 2,
+          "sampled_s": 20,
+          "custody": [
+            {
+              "holder": "field",
+              "at_s": 20
+            },
+            {
+              "holder": "transport",
+              "at_s": 22
+            },
+            {
+              "holder": "lab",
+              "at_s": 24
+            }
+          ]
+        }
+      ],
+      "methods": [
+        {
+          "id": "m1",
+          "hold_s": 1000
+        }
+      ],
+      "assays": [
+        {
+          "id": "ua1",
+          "bottle": "ub1",
+          "method": "m1",
+          "at_s": 15,
+          "status": "measured",
+          "mg_l": 4
+        },
+        {
+          "id": "ua2",
+          "bottle": "ub2",
+          "method": "m1",
+          "at_s": 25,
+          "status": "measured",
+          "mg_l": 6
+        }
+      ]
+    },
+    "downstream": {
+      "event": "storm-pair-uneven",
+      "event_seconds": [
+        40,
+        65
+      ],
+      "liters_per_unit": 1,
+      "trigger_liters": 10,
+      "tolerance_s": 1,
+      "runs": [
+        {
+          "id": "d1",
+          "seconds": [
+            40,
+            45
+          ],
+          "units": 10
+        },
+        {
+          "id": "d2",
+          "seconds": [
+            45,
+            65
+          ],
+          "units": 10
+        }
+      ],
+      "bottles": [
+        {
+          "id": "db1",
+          "trigger": 1,
+          "sampled_s": 45,
+          "custody": [
+            {
+              "holder": "field",
+              "at_s": 45
+            },
+            {
+              "holder": "transport",
+              "at_s": 47
+            },
+            {
+              "holder": "lab",
+              "at_s": 49
+            }
+          ]
+        },
+        {
+          "id": "db2",
+          "trigger": 2,
+          "sampled_s": 65,
+          "custody": [
+            {
+              "holder": "field",
+              "at_s": 65
+            },
+            {
+              "holder": "transport",
+              "at_s": 67
+            },
+            {
+              "holder": "lab",
+              "at_s": 69
+            }
+          ]
+        }
+      ],
+      "methods": [
+        {
+          "id": "m1",
+          "hold_s": 1000
+        }
+      ],
+      "assays": [
+        {
+          "id": "da1",
+          "bottle": "db1",
+          "method": "m1",
+          "at_s": 50,
+          "status": "measured",
+          "mg_l": 5
+        },
+        {
+          "id": "da2",
+          "bottle": "db2",
+          "method": "m1",
+          "at_s": 70,
+          "status": "measured",
+          "mg_l": 5
+        }
+      ]
+    }
+  }
+}
